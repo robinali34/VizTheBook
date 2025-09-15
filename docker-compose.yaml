@@ -1,0 +1,12 @@
+version: "2"
+services:
+  db:
+    image: mongo:4.4.1
+    ports:
+      - "27017:27017"
+  app:
+    build: .
+    links:
+      - db
+    ports:
+      - "5000:5000"

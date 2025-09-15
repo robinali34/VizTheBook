@@ -1,0 +1,11 @@
+#imagecloud {
+    width: 700px;
+    height: 440px;
+    position: relative;
+
+}
+
+.node {
+    position: absolute;
+    background-size:cover;
+}

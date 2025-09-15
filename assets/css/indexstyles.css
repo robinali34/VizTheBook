@@ -1,0 +1,60 @@
+select {
+  text-overflow: ellipsis;
+  width: 1430px;
+  margin-left: 5px;
+}
+
+.dropdown {
+
+  margin :10px;
+}
+
+.dropdown-wrapper {
+  display: flex;
+
+ max-width: 1500px;
+
+}
+.viz-wrapper {
+  max-width: 1400px;
+}
+.dropdown-toggle {
+background-color: rgb(255,98,101)
+
+}
+.viz-lines{
+  display: flex;
+
+}
+.vizs{
+  width: 695px;
+  height: 440px;
+}
+
+.graph-header{
+  padding-left: 20px;
+  padding-top: 10px;
+
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.viz-outerdiv{
+  border-style: outset;
+  position:relative;
+  background-color: #1f1f1f;
+  max-width: 700px;
+  max-height: 600px;
+  margin:15px;
+}
+
+.axisbottom text{
+  fill: white;
+}
